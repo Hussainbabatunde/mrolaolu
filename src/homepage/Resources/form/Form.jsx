@@ -7,18 +7,18 @@ function Form(){
                     <p>We'll send you regular content and crossborder payment, every 2 weeks.</p>
                 <form action='subscribe'>                    
                     <p className='textLabel'><label for='email' className='formText'>Email</label></p>
-                    <input type='email' id='email' size='50' required></input>
+                    <input type='email' className="forminput" id='email' size='50' required></input>
                 <div className='name'>
                     <div class='fmz6'>
                         
                             <p className='textLabel'><label for='lName' className='formText'>Last Name</label></p>
-                            <input type='text' id='lName' size='15'></input>
+                            <input type='text' className="forminput1" id='lName' size='15'></input>
                                       
                     </div>
                     <div class='fmz6'>
                         
                             <p className='textLabel'><label for='fName' className='formText'>First Name</label></p>
-                            <input type='text' id='fName' size='15'></input>
+                            <input type='text' className="forminput1" id='fName' size='15'></input>
                        
                     </div>
                 </div>

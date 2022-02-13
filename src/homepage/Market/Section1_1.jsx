@@ -46,7 +46,7 @@ import UnionPay from './images/UnionPay.svg';
             <option>Nigeria</option>
             <option>Niger</option>
         </select>
-        <input type="text" />
+        <input type="text"  className="input3" placeholder="value"/>
         </div>
         
     </div>
@@ -60,7 +60,7 @@ import UnionPay from './images/UnionPay.svg';
             <option>Nigeria</option>
             <option>Niger</option>
         </select>
-        <input type="text" className="input2" style={{ marginTop: "15px"}}/>
+        <input type="text" className="input2" placeholder="value" style={{ marginTop: "15px"}}/>
         </div>
         <p className='wordz'><strong>1 USD = 1.36 SGD Indicative Rate</strong></p>
         </div>
@@ -77,7 +77,7 @@ import UnionPay from './images/UnionPay.svg';
             <option>Nigeria</option>
             <option>Niger</option>
         </select>
-        <input type="text"  style={{ marginTop: "15px"}}/>
+        <input type="text" placeholder="value"  style={{ marginTop: "15px"}}/>
         
         </div>
         <p className='wordz'><strong>1 USD = 74.85 INR Indicative Rate</strong></p>

@@ -81,7 +81,16 @@
 }
 
 .listCategories{
-    
-
+    background-image: url("./import.png");
+    background-repeat: none;
+}
+.listCategories1{
+    background-image: url("./custom.png");
 }
 
+.listCategories2{
+    background-image: url("./export.png");
+}
+.categories1{
+    width: 90%;
+}

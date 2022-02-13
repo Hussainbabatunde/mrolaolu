@@ -7,6 +7,7 @@
     -webkit-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
     -moz-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
 }
+
 .formText{
     font-size: 13px;    
     color: #97999c;
@@ -51,4 +52,21 @@ form > button:hover{
 }
 .formRight > input:focus {
     border: 1px solid #de1f12;
+}
+@media (max-width: 420px){
+    .forminput{
+        width: 300px;
+    }
+    .forminput1{
+        width: 300px;
+    }
+    .formRight{
+        height: 650px;
+    }
+    .compArticle > h3 {
+        margin-top: 90px !important;
+    }
+    .formRight button {
+        margin-top: 20px;
+    }
 }

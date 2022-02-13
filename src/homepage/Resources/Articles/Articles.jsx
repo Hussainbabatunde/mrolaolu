@@ -120,12 +120,12 @@ function Articles(){
                    </Row>
             </div>
        <div className='loadM'> <span className='loadMore'> Load more articles</span></div>
-       <h3>Categories</h3>
+       {/* <h3>Categories</h3>
         <hr />
-        <div className='categories row'>
+        <div className='categories1 row'>
             <div className='listCategories col-lg-4'>B2B Payment</div>
-            <div className='listCategories col-lg-4'>Custom & Incoterms</div>
-            <div className='listCategories col-lg-4'>Export & Import</div>
-        </div>
+            <div className='listCategories1 col-lg-4'>Custom & Incoterms</div>
+            <div className='listCategories2 col-lg-4'>Export & Import</div>
+        </div> */}
     </div>)}
  export default Articles;

@@ -81,6 +81,37 @@ li{
     .sec4{
         padding-right: 40px !important;
     }
+    .resize{
+        height: 19px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .resize2{
+        height: 30px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .resize3{
+        height: 19px;
+        margin-top: 10px;
+        text-align: center;
+        padding-left: 40px !important;
+    }
+    .sec5logo{
+        height: 25px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .sec5logo1{
+        height: 25px;
+        margin-left: 70px !important;
+        margin-top: 10px;
+    }
+    .sec5logo2{
+        height: 25px;
+        margin-left: 90px !important;
+        margin-top: 10px;
+    }
     .sec41{
         padding-left: 65px !important;
     }

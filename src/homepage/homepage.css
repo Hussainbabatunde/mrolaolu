@@ -73,6 +73,9 @@ label{
 }
 input{
     height: 30px;
+    background-color: rgba(241, 166, 164, 0.8);
+    border: none;
+    border-radius: 3px;
 }
 hr{
     margin: 0;
@@ -99,7 +102,7 @@ hr{
         width: 90% !important;
         margin: 20px auto !important
     }
-    input{
+    .input3{
         width: 60px !important;
     }
     .input2{
@@ -117,11 +120,13 @@ hr{
         width: 90% !important;
         margin: 20px auto !important
     }
-    input{
-        width: 340px !important;
+    .input3{
+        width: 50px !important;
+        background-color: rgba(241, 166, 164, 0.8);
+        border: none;
     }
     .input2{
-        width: 320px !important;
+        width: 60px !important;
     }
     label{
         margin-right: 50px;

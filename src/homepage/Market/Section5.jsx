@@ -17,10 +17,10 @@ export default function Section5() {
         <p className='veried2'>Tazapay is licensed in Canada (through its wholly owned subsidiary Tazapay Canada Corp).FINTRAC Money Services Business (MSB) license number M21439799.</p>
         <p style={{textAlign:"center"}}>Backed by leading investors</p>
         <div style={{display: "flex",flexWrap:"wrap", justifyContent:"space-between", paddingBottom:"40px"}}>
-        <img src={sequi} style={{width:"145px", height:"30px", marginLeft:"30px"}}/>
-        <img src={rtp} style={{width:"203px", height:"auto"}}/>
-        <img src={jan} style={{width:"206px", height:"auto"}}/>        
-        <img src={saison} style={{width:"76px", height:"30px", marginRight:"30px"}}/>
+        <img src={sequi} className="sec5logo1" style={{width:"145px", height:"30px", marginLeft:"30px"}}/>
+        <img src={rtp} className="sec5logo" style={{width:"203px", height:"auto"}}/>
+        <img src={jan} className="sec5logo" style={{width:"206px", height:"auto"}}/>        
+        <img src={saison} className="sec5logo2" style={{width:"76px", height:"30px", marginRight:"30px"}}/>
         </div>
     </div>
   </div>);

@@ -2,7 +2,7 @@
     background-color: lightblue;
 }
 .topSection{
-    background-image: url('./images/intro.png');
+    background-image: url('./scott.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 430px;
@@ -93,4 +93,16 @@
 }
 .sectionArticle{
     margin: 30px 0px 0 0px;
+}
+@media (max-width: 1000px){
+    .firstDiv{
+        margin: -35% 0 0 15%;
+    }
+    
+}
+@media (max-width: 420px){
+    .firstDiv{
+        margin: -30% 0 0 20%;
+    }
+    
 }

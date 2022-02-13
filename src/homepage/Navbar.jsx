@@ -5,7 +5,7 @@ import './homepage.css'
 function Navbar1(){
     return(
     <div>
-    <Navbar expand="lg">
+    <Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
