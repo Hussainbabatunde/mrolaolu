@@ -29,6 +29,7 @@
     margin-right: auto;
     padding-top: 40px;
     padding-bottom: 20px;
+    width: 100px;
 }
 .sendesc{
     color: rgb(212, 78, 78);
@@ -75,6 +76,10 @@ li{
 }
 .sec41{
     padding-left: 65px !important;
+}
+.binded{
+    width: 96%;
+    margin: 40px 2%;
 }
 }
 @media (max-width: 900px){

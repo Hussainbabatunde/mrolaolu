@@ -1,27 +1,25 @@
 import React from 'react';
 import { Nav, Navbar ,NavDropdown, Container, Button } from 'react-bootstrap';
+import Paythru from "../paythru.png";
 import './homepage.css'
 
 function Navbar1(){
     return(
     <div>
-    <Navbar bg="light" expand="lg">
+    <Navbar  expand="lg">
   <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Brand href="/"><img src={Paythru} className="logopay" alt="paythru logo" /></Navbar.Brand>
+    
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
+        <Nav.Link href="/"  className="col-wh">Home</Nav.Link>
+        <Nav.Link href="/resource"  className="col-wh">About us</Nav.Link>
+        <Nav.Link href="/aboutus"  className="col-wh">Resources</Nav.Link>
+        
       </Nav>
-    </Navbar.Collapse>
+    </Navbar.Collapse>    
+    <Button>Login</Button>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
   </Container>
 </Navbar>
     </div>)

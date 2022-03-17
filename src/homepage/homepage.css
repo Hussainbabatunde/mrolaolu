@@ -16,6 +16,22 @@
     margin-top: 30px;
     border-radius: 5px;
 }
+.logopay{
+    height: 50px;
+}
+.col-wh{
+    color: white !important;
+}
+.btn{
+    background-color: transparent !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-color: white !important;
+}
+.btn:hover{
+    background-color: red !important;
+    
+}
 select{
     border: none;
     width: 300px;
@@ -73,7 +89,6 @@ label{
 }
 input{
     height: 30px;
-    background-color: rgba(241, 166, 164, 0.8);
     border: none;
     border-radius: 3px;
 }
@@ -91,9 +106,17 @@ hr{
     color: white;
     background: linear-gradient(263.11deg,#1fa7d9 .58%,#b2f000 144.39%);
 }
+.container{
+    max-width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 @media (max-width: 420px){
     .writtenwords{
         padding-left: 10px !important;
+    }
+    .section1{
+        width: 414px;
     }
     .modern{
         margin-top: 70px !important;
@@ -110,6 +133,10 @@ hr{
     }
     label{
         margin-right: 20px;
+    }
+    .logopay{
+        height: 50px;
+        width:185px;
     }
 }
 @media (max-width: 900px){
@@ -133,5 +160,15 @@ hr{
     }
     .modern{
         margin-top: 100px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px){
+    .input2{
+        width: 140px !important;
+    }
+    .input3{
+        width: 140px !important;
+        background-color: rgba(241, 166, 164, 0.8);
+        border: none;
     }
 }

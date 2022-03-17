@@ -77,7 +77,7 @@ import UnionPay from './images/UnionPay.svg';
             <option>Nigeria</option>
             <option>Niger</option>
         </select>
-        <input type="text" placeholder="value"  style={{ marginTop: "15px"}}/>
+        <input type="text" placeholder="value"  className="input2" style={{ marginTop: "15px"}}/>
         
         </div>
         <p className='wordz'><strong>1 USD = 74.85 INR Indicative Rate</strong></p>

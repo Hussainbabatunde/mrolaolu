@@ -4,12 +4,13 @@ import './section2.css';
 import {AiOutlineCopyrightCircle} from "react-icons/ai";
 import {AiFillFacebook} from "react-icons/ai";
 import {AiFillLinkedin} from "react-icons/ai";
+import Paythru from "../../paythru.png";
 
 
 export default function Section6() {
   return (<div>
   <div style={{display:"flex", flexWrap:"wrap", justifyContent:"space-between", width: "90%", margin:"70px auto", color: "rgb(47, 99, 119)"}}>
-    <img src={tazapay} alt="logo" />
+    <img src={Paythru} className="logopay" alt="logo" />
     <div className="row" style={{textDecoration:"none"}}>
         <div className="col-lg-3 col-md-6"><ul>
             <li><strong>Payment</strong></li>
@@ -20,14 +21,12 @@ export default function Section6() {
         <ul >
             <li><strong>Escrow</strong></li>
             <li>Escrow for exports and imports</li>
-            <li>Escrow for services</li>
         </ul>
         </div>
         <div className="col-lg-3 col-md-6">
         <ul >
             <li><strong>Resources</strong></li>
             <li>Resource centre</li>
-            <li>Blog</li>
         </ul>
         </div>
         <div  className="col-lg-3 col-md-6">
@@ -43,7 +42,7 @@ export default function Section6() {
   <div style={{width:"90%", margin:"10px auto", display:"flex", justifyContent:"space-between"}}>
       <div style={{display:"flex", color: "rgb(47, 99, 119)"}}>
           <p><AiOutlineCopyrightCircle /></p>
-          <p>2021 Tazapay. All right reserved.</p>
+          <p>2021 Paythru. All right reserved.</p>
           <p style={{marginLeft:"40px"}}>Privacy Policy</p>
           <p style={{marginLeft:"40px"}}>Terms of Service</p>
       </div>

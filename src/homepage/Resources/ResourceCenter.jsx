@@ -2,22 +2,21 @@ import React from 'react';
 import Form from './form/Form';
 import Articles from './Articles/Articles';
 import './ResourceCenter.css';
+import Navbar1 from "../Navbar"; 
 import Footer from '../Market/Section6'
 
 function ResourceCenter(){
     const date = new Date();
     const year = date.getFullYear();
     return (<div>
-                <section className = 'topSection'>         
+    
+                <section className = 'topSection'>  
+                <Navbar1 />       
                     {/* Topbar */}
                     <h1>Resource Center</h1>
                 </section>
             <section>
-                <div className='firstDiv'>
-                    <h3>Your Resources on International Trade and Payment</h3>
-                    <p>Read Tazapay's blog and subscribe to our newsletter for useful content
-                    on international trade and payment</p>
-                </div>
+                
                 <div className = 'containerFluid row'>
                 <div className='left1 col-lg-6'>
                         <a href='#'>
